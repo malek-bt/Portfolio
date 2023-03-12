@@ -1,0 +1,49 @@
+.nav-bar {
+  border: 0.0625rem solid #1f2937;
+  
+  backdrop-filter: blur(6px);
+}
+.Nav-items {
+  margin-top: 2rem;
+}
+.link {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.icon {
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  color: #fff;
+  background-color: #1f2937;
+}
+
+.nav-icons {
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 760px) {
+  .nav-bar {
+    height: 5rem;
+  }
+  
+  .nav-icons {
+    display: none;
+  }
+  .Nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .link {
+    font-size: 0.875rem;
+    
+  }
+  .link:hover {
+    color: #29a1e7;
+    font-weight: 700;
+  }
+}

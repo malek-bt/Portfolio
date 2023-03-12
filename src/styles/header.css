@@ -1,0 +1,149 @@
+.header {
+  padding-top: 10rem ;
+  
+  
+}
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.title {
+  width: 12rem;
+}
+.p-text {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.head-text {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 0.125rem;
+}
+.head-text span:hover {
+  transition: all 0.2s ease-in-out;
+  color: #29a1e7;
+  transform: scale(1.2);
+  display: inline-block;
+}
+.infos span {
+  font-size: 2.5rem;
+}
+
+.infos {
+  width: 15.625rem;
+  margin: 0 auto; 
+  
+}
+
+.header button {
+  background-color: #29a1e7;
+  border: none;
+  border-radius: 0.9375rem;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 20px rgb(0 0 0 / 40%);
+  margin-top: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+ 
+}
+
+.header button:hover {
+  transform: scale(1.1);
+  
+}
+.header > div {
+  animation: peek-and-slide-left 0.9s ease-in-out forwards;
+}
+
+@keyframes peek-and-slide-left {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+img {
+  margin-top: 2rem;
+  /* margin-bottom: 5rem; */
+  width: 15rem;
+  opacity: 0;
+  animation: scale-anim 0.4s ease-out forwards;
+  
+  
+}
+@keyframes scale-anim {
+  0% {
+    transform: scale(0%);
+    opacity: 0;
+  }
+  10% {
+    transform: scale(10%);
+    opacity: 0.1;
+  }
+  20% {
+    transform: scale(20%);
+    opacity: 0.2;
+  }
+  30% {
+    transform: scale(30%);
+    opacity: 0.3;
+  }
+  40% {
+    transform: scale(40%);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(50%);
+    opacity: 0.5;
+  }
+  60% {
+    transform: scale(60%);
+    opacity: 0.6;
+  }
+  70% {
+    transform: scale(70%);
+    opacity: 0.7;
+  }
+  80% {
+    transform: scale(80%);
+    opacity: 0.8;
+  }
+  90% {
+    transform: scale(90%);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 11rem;
+    
+    padding-bottom: 6rem;
+  }
+  img {
+    margin: 0;
+  }
+}

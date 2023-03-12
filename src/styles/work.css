@@ -1,0 +1,105 @@
+.cards {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+}
+.card1 {
+  background-color: #1f2937;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 1rem;
+  width: 15rem;
+  height: 23rem;
+}
+
+.card1 .image {
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  
+}
+.image-icons {
+  display: none;
+}
+.img1 {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  scale: 1.5;
+}
+h4 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+.project-description {
+  opacity: 0.6;
+  font-size: .875rem;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 500;
+}
+.icon1 {
+  background-color: #111827;
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+.project-icons1 {
+  margin: 0 auto;
+  width: 8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 760px) {
+  .work {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .cards {
+    width: 90%;
+    max-width: 76.375rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .card1 {
+    margin: 0 auto;
+    width: 18rem;
+  }
+  
+  .project-icons1 {
+    display: none;
+  }
+  .image {
+    position: relative;
+  }
+  .image-icons {
+    position: absolute ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    background-color: hsla(215, 28%, 17%, 0.4);
+    display: none;
+  }
+  .image:hover .image-icons {
+    display: flex;
+  }
+  
+}
