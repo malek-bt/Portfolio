@@ -19,7 +19,7 @@ const Work = () => {
       <article className="cards">
         <div className="card1">
           <div className="image">
-            <img className="img1" src={testimentional}></img>
+            <img className="img1" src={testimentional} alt="testimentional project image"></img>
 
             <div className="image-icons">
               <a
@@ -60,7 +60,7 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={result_summary}></img>
+            <img className="img1" src={result_summary} alt="result summary  project image"></img>
 
             <div className="image-icons">
               <a
@@ -102,7 +102,7 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={article}></img>
+            <img className="img1" src={article} alt="article project image"></img>
 
             <div className="image-icons">
               <a
@@ -143,7 +143,7 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={interactive}></img>
+            <img className="img1" src={interactive} alt="interactive project image"></img>
 
             <div className="image-icons">
               <a
@@ -184,7 +184,7 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={ping}></img>
+            <img className="img1" src={ping} alt="ping pong project image"></img>
 
             <div className="image-icons">
               <a
@@ -225,7 +225,7 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={signup}></img>
+            <img className="img1" src={signup} alt="signup project image"></img>
 
             <div className="image-icons">
               <a
@@ -265,7 +265,7 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={base_apparel}></img>
+            <img className="img1" src={base_apparel} alt="base apparel project image"></img>
 
             <div className="image-icons">
               <a
@@ -306,7 +306,7 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={status}></img>
+            <img className="img1" src={status} alt="status preview project image"></img>
 
             <div className="image-icons">
               <a

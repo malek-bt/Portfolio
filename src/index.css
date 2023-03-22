@@ -8,9 +8,15 @@
 body {
   background-color: #111827;
   font-family: "Poppins",sans-serif;
-  height: 400vh;
+  width: 100vw; 
+  position: relative;
 
 }
+html , body {
+  overflow-x: hidden;
+}
+
+
 
 
 

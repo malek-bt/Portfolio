@@ -1,26 +1,32 @@
-.cards {
+.work {
+  padding-top: 5rem;
+  width: 90vw;
   margin: 0 auto;
+}
+.cards {
+  margin: 3rem auto ;
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 2.5rem;
+  
 }
 .card1 {
   background-color: #1f2937;
   border-radius: 0.5rem;
   color: #fff;
   padding: 1rem;
-  width: 15rem;
-  height: 23rem;
+  width: 19rem;
+  max-height: 27rem;
+ 
 }
 
 .card1 .image {
   margin: 0 auto;
   border-radius: 0.5rem;
   width: 100%;
-  height: 50%;
+  height: 45%;
   overflow: hidden;
-  
 }
 .image-icons {
   display: none;
@@ -39,7 +45,7 @@ h4 {
 }
 .project-description {
   opacity: 0.6;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   text-align: center;
   font-weight: 500;
@@ -66,6 +72,10 @@ h4 {
   .work {
     width: 90%;
     margin: 0 auto;
+    padding-top: 1rem; 
+  }
+  .work hr {
+    width: 6rem;
   }
   .cards {
     width: 90%;
@@ -77,8 +87,16 @@ h4 {
   .card1 {
     margin: 0 auto;
     width: 18rem;
+    height: 20rem;
+    width: 17rem;
+    transition: all 0.2s ease;
   }
-  
+  .card1:hover {
+    -webkit-box-shadow: -1px 13px 15px 4px hsl(214, 47%, 13%);
+    -moz-box-shadow: -1px 13px 15px 4px hsl(216, 47%, 13%);
+    box-shadow: -1px 13px 15px 4px hsl(216, 47%, 13%);
+    transform: scale(1.05);
+  }
   .project-icons1 {
     display: none;
   }
@@ -86,7 +104,7 @@ h4 {
     position: relative;
   }
   .image-icons {
-    position: absolute ;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -101,5 +119,11 @@ h4 {
   .image:hover .image-icons {
     display: flex;
   }
-  
+  .icon1 {
+    transition: all 0.2s ease;
+  }
+  .icon1:hover {
+    transform: scale(0.9);
+    color: #fff;
+  }
 }

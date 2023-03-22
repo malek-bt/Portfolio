@@ -1,7 +1,7 @@
 .header {
-  padding-top: 10rem ;
-  
-  
+  padding-top: 10rem;
+  margin: 0 auto;
+  width: 90vw;
 }
 .infos {
   display: flex;
@@ -40,12 +40,11 @@
 
 .infos {
   width: 15.625rem;
-  margin: 0 auto; 
-  
+  margin: 0 auto;
 }
 
-.header button {
-  background-color: #29a1e7;
+.btn {
+  background-color: #ff7582;
   border: none;
   border-radius: 0.9375rem;
   color: #fff;
@@ -56,94 +55,63 @@
   cursor: pointer;
   outline: none;
   transition: all 0.2s ease-in-out;
- 
 }
-
-.header button:hover {
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn:hover {
   transform: scale(1.1);
-  
+  background-color: #ff7582;
 }
-.header > div {
-  animation: peek-and-slide-left 0.9s ease-in-out forwards;
-}
-
-@keyframes peek-and-slide-left {
-  from {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-img {
+.div-img {
+  display: flex;
+  justify-content: center;
   margin-top: 2rem;
-  /* margin-bottom: 5rem; */
-  width: 15rem;
-  opacity: 0;
-  animation: scale-anim 0.4s ease-out forwards;
-  
-  
 }
-@keyframes scale-anim {
-  0% {
-    transform: scale(0%);
-    opacity: 0;
-  }
-  10% {
-    transform: scale(10%);
-    opacity: 0.1;
-  }
-  20% {
-    transform: scale(20%);
-    opacity: 0.2;
-  }
-  30% {
-    transform: scale(30%);
-    opacity: 0.3;
-  }
-  40% {
-    transform: scale(40%);
-    opacity: 0.4;
-  }
-  50% {
-    transform: scale(50%);
-    opacity: 0.5;
-  }
-  60% {
-    transform: scale(60%);
-    opacity: 0.6;
-  }
-  70% {
-    transform: scale(70%);
-    opacity: 0.7;
-  }
-  80% {
-    transform: scale(80%);
-    opacity: 0.8;
-  }
-  90% {
-    transform: scale(90%);
-    opacity: 0.9;
-  }
-  100% {
-    transform: scale(100%);
-    opacity: 1;
-  }
+.div-img img {
+  border-radius: 999px;
+  display: block;
+  width: 17rem;
+  height: 17rem; 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 700px) {
   .header {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 11rem;
-    
+
+    height: 100vh;
     padding-bottom: 6rem;
   }
   img {
     margin: 0;
+  }
+  .div-img {
+    position: relative;
+    padding: 1rem;
+  }
+  .div-img::after {
+    content: "";
+    border-radius: 999px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: conic-gradient(from 30deg, #ff7582, #0076a5 46%, transparent 46%);
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 3px),
+      #fff calc(100% - 3px + 1px)
+    );
+    mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - 3px),
+      #fff calc(100% - 3px + 1px)
+    );
   }
 }

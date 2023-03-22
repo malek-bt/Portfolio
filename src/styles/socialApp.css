@@ -6,12 +6,16 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  top: calc(100vh - 180px);
+  top: calc(100vh - 180px); 
 }
 .icon {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+}
+.icon:hover {
+  background-color: #ff7582;
+  color: white;
 }
 
 @media screen and (min-width: 760px) {

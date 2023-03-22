@@ -1,7 +1,7 @@
 .nav-bar {
   border: 0.0625rem solid #1f2937;
-  
   backdrop-filter: blur(6px);
+  width: 100vw; 
 }
 .Nav-items {
   margin-top: 2rem;
@@ -10,6 +10,7 @@
   color: #fff;
   font-weight: 500;
   font-size: 1.25rem;
+  text-transform: uppercase;
 }
 .icon {
   border-radius: 50%;
@@ -36,14 +37,16 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 0; 
   }
   .link {
-    font-size: 0.875rem;
+    font-size: 1rem;
     
   }
   .link:hover {
-    color: #29a1e7;
-    font-weight: 700;
+    color: #ff7582;
+    
+   
   }
 }
+
