@@ -3,10 +3,8 @@ import "../styles/work.css";
 import testimentional from "../images/testimentional.png";
 import result_summary from "../images/result-summary.png";
 import interactive from "../images/interactive.png";
-import ping from "../images/ping.png";
 import base_apparel from "../images/base-apparel.png";
 import signup from "../images/signup.png";
-import article from "../images/article.png";
 import status from "../images/status.png";
 import { BsEyeFill } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
@@ -19,7 +17,11 @@ const Work = () => {
       <article className="cards">
         <div className="card1">
           <div className="image">
-            <img className="img1" src={testimentional} alt="testimentional project image"></img>
+            <img
+              className="img1"
+              src={testimentional}
+              alt="testimentional project image"
+            ></img>
 
             <div className="image-icons">
               <a
@@ -60,7 +62,11 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={result_summary} alt="result summary  project image"></img>
+            <img
+              className="img1"
+              src={result_summary}
+              alt="result summary  project image"
+            ></img>
 
             <div className="image-icons">
               <a
@@ -102,48 +108,11 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={article} alt="article project image"></img>
-
-            <div className="image-icons">
-              <a
-                className="icon1"
-                href="https://malek-bt.github.io/Article-preview-component/"
-              >
-                <BsEyeFill />
-              </a>
-              <a
-                className="icon1"
-                href="https://github.com/malek-bt/Article-preview-component"
-              >
-                <BsGithub />
-              </a>
-            </div>
-          </div>
-
-          <h4>Article Preview Component</h4>
-          <p className="project-description">
-            Responsive article preview component including a share button with
-            social media icons.
-          </p>
-          <div className="project-icons1">
-            <a
-              className=" icon1"
-              href="https://malek-bt.github.io/Article-preview-component/"
-            >
-              <BsEyeFill />
-            </a>
-            <a
-              className=" icon1"
-              href="https://github.com/malek-bt/Article-preview-component"
-            >
-              <BsGithub />
-            </a>
-          </div>
-        </div>
-
-        <div className="card1">
-          <div className="image">
-            <img className="img1" src={interactive} alt="interactive project image"></img>
+            <img
+              className="img1"
+              src={interactive}
+              alt="interactive project image"
+            ></img>
 
             <div className="image-icons">
               <a
@@ -176,47 +145,6 @@ const Work = () => {
             <a
               className=" icon1"
               href="https://github.com/malek-bt/Interactive-rating-component"
-            >
-              <BsGithub />
-            </a>
-          </div>
-        </div>
-
-        <div className="card1">
-          <div className="image">
-            <img className="img1" src={ping} alt="ping pong project image"></img>
-
-            <div className="image-icons">
-              <a
-                className="icon1"
-                href="https://malek-bt.github.io/Ping-coming-soon-page/"
-              >
-                <BsEyeFill />
-              </a>
-              <a
-                className="icon1"
-                href="https://github.com/malek-bt/Ping-coming-soon-page"
-              >
-                <BsGithub />
-              </a>
-            </div>
-          </div>
-
-          <h4>Ping Coming Soon Page</h4>
-          <p className="project-description">
-            Responsive coming soon page for a fictional app caled Ping, that
-            includes a subscription form with email validation.
-          </p>
-          <div className="project-icons1">
-            <a
-              className=" icon1"
-              href="https://malek-bt.github.io/Ping-coming-soon-page/"
-            >
-              <BsEyeFill />
-            </a>
-            <a
-              className=" icon1"
-              href="https://github.com/malek-bt/Ping-coming-soon-page"
             >
               <BsGithub />
             </a>
@@ -265,7 +193,11 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={base_apparel} alt="base apparel project image"></img>
+            <img
+              className="img1"
+              src={base_apparel}
+              alt="base apparel project image"
+            ></img>
 
             <div className="image-icons">
               <a
@@ -306,7 +238,11 @@ const Work = () => {
 
         <div className="card1">
           <div className="image">
-            <img className="img1" src={status} alt="status preview project image"></img>
+            <img
+              className="img1"
+              src={status}
+              alt="status preview project image"
+            ></img>
 
             <div className="image-icons">
               <a

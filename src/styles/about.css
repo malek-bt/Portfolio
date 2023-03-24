@@ -1,8 +1,8 @@
 .global-section {
   width: 90vw ;
-  margin: 0 auto;
+  margin: 0 auto; 
   margin-top: 5rem;
-  padding-top: 2rem; }
+  padding-top: 4rem; }
 
 .h2 {
   color: #fff;
@@ -89,8 +89,8 @@ hr {
     padding-top: 0;
   }
   .description {
-    width: 13.75rem;
-    margin-top: 0;
+    width: 15rem;
+    margin-top: 0; 
   }
   .h3 {
     display: block;

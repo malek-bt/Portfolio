@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/header.css";
 import image from "../images/header.png";
-import malek from "../images/malek.png";
+import malek from "../images/maleek.png";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
-import resume from "../resume/resume.pdf";
+import resume from "../resume/malek-bentaher.pdf";
 
 const HeaderInfo = () => {
   const { ref, inView } = useInView({

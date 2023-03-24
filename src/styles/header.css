@@ -70,13 +70,13 @@
   margin-top: 2rem;
 }
 .div-img img {
-  border-radius: 999px;
+  border-radius: 900px;
   display: block;
-  width: 17rem;
-  height: 17rem; 
+  width: 19rem;
+  height: 19rem; 
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 790px) {
   .header {
     display: flex;
     justify-content: center;
