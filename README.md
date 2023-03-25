@@ -7,7 +7,7 @@ This project was built using these technologies:
 
 - React.js
 - HTML
-- Cass
+- Css
 - MailJs
 - Netlify
 
