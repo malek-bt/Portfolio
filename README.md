@@ -16,4 +16,4 @@ Technologies used:
 
 ![skills](./screens/skills.png)
 
-![contact](./screens/contac.png)
+![contact](./screens/contact.png)
