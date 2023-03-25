@@ -1,10 +1,28 @@
-# Portfolio
+## Portfolio
 This is my new portfolio website. 
 
-Technologies used:
+## Built With
 
-- `React.js` & `Css` for frontend.
-- Form is handled with `MailJs`.
+This project was built using these technologies:
+
+- React.js
+- HTML
+- Cass
+- MailJs
+- Netlify
+
+## 🛠 Installation and Setup Instructions
+
+1. Installation: `npm install`
+
+2. Create `.env` file and add your own MailJS templete , service and user IDs 
+
+3. In the project directory, you can run: `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
 
 # [Live Website Preview](https://malekbentaher.netlify.app/)
 
@@ -17,3 +35,5 @@ Technologies used:
 ![skills](./screens/skills.png)
 
 ![contact](./screens/contact.png)
+
+
