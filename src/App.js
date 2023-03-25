@@ -11,12 +11,12 @@ function App() {
   return (
     <main className="App">
       <NavBar />
-      <SocialApp />
+       <SocialApp />
       <HeaderInfo />
-      <About />
+      <About /> 
       <Work />
-      <Skills/>
-      <Contact />
+       <Skills/>
+      <Contact /> 
     </main>
   );
 }
