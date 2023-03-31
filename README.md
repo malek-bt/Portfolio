@@ -1,5 +1,5 @@
 ## Portfolio
-This is my new portfolio website. 
+Welcome to my portfolio website! This website was built using ReactJS and Framer Motion for scroll animations. It showcases my projects, skills, and experience as a developer.
 
 ## Built With
 
@@ -8,6 +8,7 @@ This project was built using these technologies:
 - React.js
 - HTML
 - CSS
+- Framer Motion
 - MailJs
 - Netlify
 
@@ -23,17 +24,51 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
+## Navigation
 
-# [Live Website Preview](https://malekbentaher.netlify.app/)
+The website has a navigation bar that allows users to easily navigate between different sections. The sections include:
 
-![Nikola-Portfolio](./screens/home.png)
+- Home: A brief introduction to who I am and what I do.
+- About: More detailed information about my background.
+- Works: A showcase of my recent projects, including links to live demos and GitHub repositories.
+- Skills: A list of the programming languages, frameworks, and tools that I'm proficient in.
+- Contact: A form where users can send me a message.
 
-![about](./screens/about.png)
 
-![work](./screens/work.png)
+## Demo
 
-![skills](./screens/skills.png)
+Check out the live demo of my portfolio at https://malekbentaher.netlify.app/
 
-![contact](./screens/contact.png)
+## Screenshots
+
+### Home page
+
+| ![](./screens/home.png) | ![](./screens/home-mobile.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
+
+### About page
+
+| ![](./screens/about.png) | ![](./screens/about-mobile.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
+
+### Work page
+
+| ![](./screens/work.png) | ![](./screens/work-mobile.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
+
+### Skills page
+
+| ![](./screens/skills.png) | ![](./screens/skills-mobile.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
+
+### Contact page
+
+| ![](./screens/contact.png) | ![](./screens/contact-mobile.png) |
+| ------------------------------ | ----------------------------- |
+| Desktop version                | Mobile version                |
 
 

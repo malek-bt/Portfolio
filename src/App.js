@@ -13,7 +13,7 @@ function App() {
       <NavBar />
        <SocialApp />
       <HeaderInfo />
-      <About /> 
+     <About /> 
       <Work />
        <Skills/>
       <Contact /> 
