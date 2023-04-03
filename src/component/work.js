@@ -6,6 +6,8 @@ import interactive from "../images/interactive.png";
 import base_apparel from "../images/base-apparel.png";
 import signup from "../images/signup.png";
 import status from "../images/status.png";
+import fylo from "../images/fylo.png";
+import clipboard from "../images/clipboard.png";
 import { BsEyeFill } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 const Work = () => {
@@ -274,6 +276,91 @@ const Work = () => {
             <a
               className=" icon1"
               href="https://github.com/malek-bt/Stats-preview-card-component"
+            >
+              <BsGithub />
+            </a>
+          </div>
+        </div>
+
+        <div className="card1">
+          <div className="image">
+            <img
+              className="img1"
+              src={fylo}
+              alt="status preview project image"
+            ></img>
+
+            <div className="image-icons">
+              <a className="icon1" href="https://ffylo-data.vercel.app/">
+                <BsEyeFill />
+              </a>
+              <a
+                className="icon1"
+                href="https://github.com/malek-bt/Fylo-data-storage"
+              >
+                <BsGithub />
+              </a>
+            </div>
+          </div>
+
+          <h4>Fylo data storage</h4>
+          <p className="project-description">
+            Responsive webpage for a fictional company called Fylo, which offers
+            cloud-based data storage services.
+          </p>
+          <div className="project-icons1">
+            <a className=" icon1" href="https://ffylo-data.vercel.app/">
+              <BsEyeFill />
+            </a>
+            <a
+              className=" icon1"
+              href="https://github.com/malek-bt/Fylo-data-storage"
+            >
+              <BsGithub />
+            </a>
+          </div>
+        </div>
+
+        <div className="card1">
+          <div className="image">
+            <img
+              className="img1"
+              src={clipboard}
+              alt="status preview project image"
+            ></img>
+
+            <div className="image-icons">
+              <a
+                className="icon1"
+                href="https://clipboard-landing-page-malek-bt.vercel.app/"
+              >
+                <BsEyeFill />
+              </a>
+              <a
+                className="icon1"
+                href="https://github.com/malek-bt/Clipboard-landing-page"
+              >
+                <BsGithub />
+              </a>
+            </div>
+          </div>
+
+          <h4>Clipboard landing page</h4>
+          <p className="project-description">
+            creating a landing page for a fictional company called Clipboard,
+            which offers a clipboard manager tool for organizing and sharing
+            text snippets.
+          </p>
+          <div className="project-icons1">
+            <a
+              className=" icon1"
+              href="https://clipboard-landing-page-malek-bt.vercel.app/"
+            >
+              <BsEyeFill />
+            </a>
+            <a
+              className=" icon1"
+              href="https://github.com/malek-bt/Clipboard-landing-page"
             >
               <BsGithub />
             </a>
