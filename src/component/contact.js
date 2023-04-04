@@ -6,7 +6,6 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 
-const notify = () => toast("Email send successfully!");
 const Contact = () => {
   const form = useRef();
 
@@ -20,13 +19,12 @@ const Contact = () => {
         form.current,
         process.env.REACT_APP_EMAILJS_USER_ID
       )
-      .then(
-        (result) => {
-          window.location.reload(true);
-        }
-      );
+      .then((result) => {
+        window.location.reload(true);
+        toast("Email send successfully!");
+      });
   };
- 
+
   return (
     <section className="contact" id="contact">
       <h2 className="h2">
@@ -51,6 +49,8 @@ const Contact = () => {
             name="from_name"
             placeholder="Your Name"
             autoComplete="off"
+            required
+            minlength={4}
           ></input>
         </div>
 
@@ -60,14 +60,20 @@ const Contact = () => {
             placeholder="Your Email"
             autoComplete="off"
             name="from_email"
+            required
           ></input>
         </div>
 
         <div className="contact-card">
-          <textarea placeholder="Your Message" name="message"></textarea>
+          <textarea
+            placeholder="Your Message"
+            name="message"
+            required
+            minlength={10}
+          ></textarea>
         </div>
 
-        <button type="submit" className="btn1" value="send" onClick={notify}>
+        <button type="submit" className="btn1" value="send">
           Send Message
         </button>
         <Toaster
