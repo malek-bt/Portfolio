@@ -62,7 +62,7 @@ const About = () => {
 
       <motion.article className="about-items" animate={cardsAnimation}>
         <div className="item">
-          <span>5+</span>
+          <span>9+</span>
           <p>MONTHS OF PRACTICE</p>
         </div>
 
