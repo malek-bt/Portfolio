@@ -57,6 +57,9 @@ function NavBar() {
             <Nav.Link href="#work" className="link">
               Work
             </Nav.Link>
+            <Nav.Link href="#experience" className="link">
+              Experience
+            </Nav.Link>
             <Nav.Link href="#skills" className="link">
               Skills
             </Nav.Link>

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
-import resume from "../resume/malek-bentaher.pdf";
+import resume from "../resume/Malek Bentaher.pdf";
 
 const HeaderInfo = () => {
   const { ref, inView } = useInView({

@@ -6,6 +6,7 @@ import SocialApp from "./component/SocialApp";
 import Work from "./component/work";
 import Skills from "./component/skills";
 import Contact from "./component/contact";
+import Experience from "./component/experience";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HeaderInfo />
      <About /> 
       <Work />
+      <Experience />
        <Skills/>
       <Contact /> 
     </main>

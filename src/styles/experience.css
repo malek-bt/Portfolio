@@ -1,0 +1,77 @@
+.experience {
+    width: 300px;
+    //margin: 0 auto;
+    text-align: start;
+}
+.position {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.position span {
+    color: #ff7582;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.duration {
+    color: #858484;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.desc {
+    color: white;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.bloc {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin: 0 auto;
+    align-items: flex-start;
+    gap: 0px;
+    position: relative;
+}
+.line {
+    width: 4px;
+    background-color: #ff7582;
+    position: absolute;
+    border: solid #ff7582;
+    height: 100%;
+    left: 14%;
+    top: 5%;
+}
+
+
+@media screen and (min-width: 790px) {
+    .experience {
+        width: 700px;
+       
+    }
+
+    .position {
+        font-size: 1.5rem;
+      
+    }
+    
+    .position span {
+       
+        font-size: 1.75rem;
+    }
+    .desc {
+       
+        font-size: 1rem;
+    }
+    .bloc {
+        width: 800px;
+        gap: 40px;
+    }
+    .line {
+        left: 6%;
+    }
+    
+    
+}

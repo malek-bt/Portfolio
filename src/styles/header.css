@@ -30,7 +30,7 @@
 }
 .head-text span:hover {
   transition: all 0.2s ease-in-out;
-  color: #29a1e7;
+  color: #ff7582;
   transform: scale(1.2);
   display: inline-block;
 }
