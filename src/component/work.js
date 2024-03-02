@@ -9,8 +9,27 @@ import status from "../images/status.png";
 import fylo from "../images/fylo.png";
 import clipboard from "../images/clipboard.png";
 import Card from "./card";
-
+import rest_countries from "../images/rest_countries.png";
+import toDoApp from "../images/to_do_app.png";
+import huddle_landing from "../images/huddle-landing-page.png";
+import dashboard_three from "../images/dashboard-three.png";
 const projects = [
+  {
+    img: rest_countries,
+    live: "https://rest-countries-malek-bt.vercel.app/",
+    github: "https://github.com/malek-bt/Rest-countries",
+    title: "Rest Countries",
+    describe:
+      "Web application project that utilizes the Rest Countries API to display information about different countries.",
+  },
+  {
+    img: toDoApp,
+    live: "",
+    github: "https://github.com/malek-bt/ToDo_app_front",
+    title: "To Do App",
+    describe:
+      "Simple Full Stack Todo App . It provides a basic structure for managing and displaying tasks.",
+  },
   {
     img: testimentional,
     live: "https://malek-bt.github.io/Testimonials-grid-section/",
@@ -18,6 +37,23 @@ const projects = [
     title: "Testimonial",
     describe:
       "Responsive testimonial cards that display testimonials of different verified graduates with a peek-and-slide animation effect.",
+  },
+  
+  {
+    img:dashboard_three ,
+    live: "https://nextjs14-dashboard-three-nu.vercel.app/dashboard",
+    github: "https://github.com/malek-bt/Nextjs14-dashboard",
+    title: "Invoice Dashboard",
+    describe:
+      "Full-stack web application that allows users to manage and track invoices. It includes a dashboard that displays a summary of all invoices.",
+  },
+  {
+    img: huddle_landing,
+    live: "https://huddle-landing-page-with-alternating-feature-blocks-challenge.vercel.app/",
+    github: "https://github.com/malek-bt/Huddle-landing-page-with-alternating-feature-blocks-challenge",
+    title: "Huddle landing page",
+    describe:
+      "Responsive huddle landing page with alternating feature blocks challenge.",
   },
   {
     img: result_summary,
@@ -72,7 +108,7 @@ const projects = [
     github: "https://github.com/malek-bt/Clipboard-landing-page",
     title: "Clipboard landing page",
     describe:
-      "creating a landing page for a fictional company called Clipboard, which offers a clipboard manager tool for organizing and sharing text snippets.",
+      "creating a landing page for a company called Clipboard, which offers a clipboard manager tool for organizing and sharing text snippets.",
   },
   
 ];

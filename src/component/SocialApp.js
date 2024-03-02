@@ -14,7 +14,7 @@ const SocialApp = () => {
 
       <a
         className="  icon"
-        href="https://www.linkedin.com/in/malek-bentaher-361028222/"
+        href="https://www.linkedin.com/in/bentaher-malek/"
         target="_blank" rel="noopener noreferrer"
       >
         <BsLinkedin />
