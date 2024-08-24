@@ -12,7 +12,7 @@ import Card from "./card";
 import rest_countries from "../images/rest_countries.png";
 import toDoApp from "../images/to_do_app.png";
 import huddle_landing from "../images/huddle-landing-page.png";
-import dashboard_three from "../images/dashboard-three.png";
+import github_search from "../images/github_search.png";
 const projects = [
   {
     img: rest_countries,
@@ -40,12 +40,12 @@ const projects = [
   },
   
   {
-    img:dashboard_three ,
-    live: "https://nextjs14-dashboard-three-nu.vercel.app/dashboard",
-    github: "https://github.com/malek-bt/Nextjs14-dashboard",
-    title: "Invoice Dashboard",
+    img:github_search ,
+    live: "https://github-search-malek-bt.vercel.app/",
+    github: "https://github.com/malek-bt/github-search",
+    title: "Github Search",
     describe:
-      "Full-stack web application that allows users to manage and track invoices. It includes a dashboard that displays a summary of all invoices.",
+      "Web application project that utilizes the Github API to search for users and display their profile information and repositories.",
   },
   {
     img: huddle_landing,

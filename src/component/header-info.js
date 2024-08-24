@@ -64,7 +64,7 @@ const HeaderInfo = () => {
               <span>e</span>
               <span>k</span>
             </h1>
-            <p className="p-text">Frontend Developer</p>
+            <p className="p-text">Full Stack Developer</p>
           </div>
         </div>
         <button className="btn" ><a href={resume} download>Resume</a></button>
