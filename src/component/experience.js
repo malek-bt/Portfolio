@@ -13,19 +13,21 @@ const Experience = () => {
         <div className="line"></div>
         <div className="experience">
           <h3 className="position">
-            Technical Team Leader <span> @Caustaza Group LTD</span>
+            Full-stack developer <span> @Caustaza Group LTD</span>
           </h3>
 
-          <h4 className="duration">September 2023 - January 2024</h4>
+          <h4 className="duration">September 2023 - Present</h4>
           <p className="desc">
-            Led a dynamic team in creating an innovative billing microservice
-            and overseeing the development of a mobile application, ensuring
-            seamless integration of cutting-edge technologies and successful
-            project execution.
+            As a full-stack developer for the Smart Invoice project, I
+            contribute to streamlining invoice management through the
+            development of efficient web pages. I implement
+            front-end APIs to enhance user interactions and develop robust
+            RESTful APIs to support diverse functionalities, ensuring seamless
+            communication between the front-end and back-end systems
           </p>
         </div>
       </div>
-      
+
       <div className="bloc">
         <svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
           <circle r="20" cx="50" cy="25" fill="#ff7582" />
